@@ -134,6 +134,13 @@ body {
     font-size: 12px; /* Mengubah ukuran font input pencarian */
     padding: 7px;
   }
+  .result-title {
+    font-size: 16px;
+  }
+  .result-url {
+    color: #006621;
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -153,6 +160,13 @@ body {
     font-size: 10px; /* Mengubah ukuran font input pencarian */
     padding: 6px;
   }
+  .result-title {
+    font-size: 16px;
+  }
+  .result-url {
+    color: #006621;
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 420px) {
@@ -171,5 +185,45 @@ body {
     width: calc(100% - 40px); /* Mengubah lebar input pencarian */
     font-size: 8px; /* Mengubah ukuran font input pencarian */
     padding: 5px;
+  }
+  .result-title {
+    font-size: 14px;
+  }
+  .result-url {
+    color: #006621;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  html {
+    font-size: 60%;
+  }
+  .container1,
+  .container {
+    width: 60%; /* Mengubah lebar kontainer */
+  }
+
+  .container1 h2 {
+    font-size: 1.7rem; /* Mengubah ukuran font */
+  }
+  .search-input {
+    width: calc(100% - 20px); /* Mengubah lebar input pencarian */
+    font-size: 7px; /* Mengubah ukuran font input pencarian */
+    padding: 5px;
+  }
+  .result-title {
+    font-size: 14px;
+  }
+  .result-url {
+    color: #006621;
+    font-size: 10px;
+  }
+  .result-image {
+    float: left;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    margin-right: 10px;
   }
 }
